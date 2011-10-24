@@ -1,0 +1,2 @@
+/etc/puppet/modules/nagios/manifests/init.pp
+/etc/puppet/modules/nagios/manifests/#init.pp#
