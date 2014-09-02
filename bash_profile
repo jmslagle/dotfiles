@@ -16,9 +16,7 @@ export PATH=$PATH:$EC2_HOME/bin:$HOME/wheeeeeee/hadoop-0.20.2+320/src/contrib/cl
 export EC2_PRIVATE_KEY=pk-DECQNS327PHA27MNDZ37NZTC34S3D6XE.pem
 export EC2_CERT=cert-DECQNS327PHA27MNDZ37NZTC34S3D6XE.pem
 export JAVA_HOME=/usr/java/latest
-export AWS_ACCESS_KEY_ID=0DZ92BFM8BA2PM767DG2
-export AWS_SECRET_ACCESS_KEY=ST0laZtMXRy/NPeI5OwjnwMbOkl6ImHMaaDDslZi
-export AWS_ACCOUNT_ID=5842-4574-7228
+
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
